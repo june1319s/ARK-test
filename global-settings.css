@@ -1,0 +1,156 @@
+
+/* Global Setting */
+html,
+body {
+  font-size: 18px;
+  color: #234759;
+  font-family: 'Roboto', sans-serif;
+  vertical-align: baseline;
+  line-height: 1.7;
+  font-weight: 400;
+  overflow-x: hidden;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+p {
+  margin: 0 0 28px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Poppins', sans-serif;
+  color: #1c1b1b;
+  margin: 0 0 26px;
+  font-weight: 700;
+}
+
+h1 {
+  font-size: 54px;
+  line-height: 64px;
+}
+h2 {
+  font-size: 36px;
+  line-height: 40px;
+}
+h3 {
+  font-size: 28px;
+  line-height: 32px;
+}
+h4 {
+  font-size: 20px;
+  line-height: 28px;
+}
+h5 {
+  font-size: 18px;
+  line-height: 28px;
+}
+h6 {
+  font-size: 16px;
+  line-height: 20px;
+}
+
+a {
+  color: #464660;
+  transition: all 0.3s ease;
+  text-decoration: none !important;
+  outline: none !important;
+}
+a:active,
+a:hover {
+  text-decoration: none;
+  outline: 0 none;
+  color: #464660;
+}
+ul {
+  list-style: outside none none;
+  margin: 0;
+  padding: 0;
+}
+.uppercase {
+  text-transform: uppercase;
+}
+.clear {
+  clear: both;
+}
+
+.width-unset {
+  width: unset !important;
+}
+.white-bg {
+  background-color: #ffffff;
+}
+.red-color {
+  color: #234759;
+}
+.red-bg {
+  background: #ec4c6f;
+}
+.red-bg2 {
+  background: #d83030;
+}
+.red-color2 {
+  color: #d83030;
+}
+
+.
+.transparent-bg {
+  background: transparent;
+}
+.bg-fixed {
+  background-attachment: fixed !important;
+}
+
+.gb-1  {
+  background-image: url(marble-white.jpg);
+}
+
+.bg2 {
+  background-image: url(meetingroom.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.bg21 {
+  background-image: url(teamready.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg23 {
+  background-image:url(white-bricks.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bg24 {
+  background-image: url(chinabaloo-bw.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bg24:hover{
+  background-image: url(chinabaloo-red-dark.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+button {
+  cursor: pointer;
+}
+.glyph-icon:before {
+  margin: 0;
+}
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+  outline: none !important;
+}
